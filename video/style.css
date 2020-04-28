@@ -1,0 +1,53 @@
+h5 {
+    border: 1px solid powderblue;
+    text-align: center;
+}
+
+
+
+div{
+    text-align:center;
+}
+
+
+canvas {
+    border: 1px solid black;
+}
+
+.center-block {
+    display: block;
+    margin: auto;
+}
+
+
+.invisible {
+    display: none;
+}
+
+/* .text-center {
+    text-align: center;
+} */
+
+
+
+
+
+/* label {
+    padding-right: 10px;
+    width: 25%;
+    vertical-align: top;
+    font: 16px 'Lucida Grande', sans-serif;
+} */
+
+
+
+/* img {
+    max-width: 30%;
+    height: auto;
+} */
+
+
+/* myCanvas {
+    max-width: 100%;
+    height: auto;
+} */

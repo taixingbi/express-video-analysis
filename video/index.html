@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+   <body>
+        <h5> VIDEO ANALYSIS</h5>
+
+        <div id="container">
+            <canvas class="center-block" id="canvasOutput" width=320 height=240></canvas>
+        </div>
+
+        <div>
+            <button onclick="startCamera()">start</button>
+        </div>
+
+
+        <div >
+            <video id="video" class="hidden"></video>
+        </div>
+
+        <button onclick="demo()">demo</button>
+
+        <div>
+            <canvas id="canvas" width="320" height="240" >       
+        </div>
+
+        <div>
+            <img src="108.jpg" id="108" >
+        </div>
+
+
+
+   </body>
+
+   <script type="text/javascript" src="index.js" > </script>
+   <script type="text/javascript" src="video.js" > </script>
+
+   <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+   <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+   <script async src="https://huningxin.github.io/opencv.js/build/asm.js/opencv.js"></script>
+
+</html>
